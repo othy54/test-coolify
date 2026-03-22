@@ -17,6 +17,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
 
 WORKDIR /var/www/html
 
+
 # 1) Dépendances PHP Bedrock
 COPY composer.json composer.lock* ./
 RUN composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
