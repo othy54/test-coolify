@@ -1,6 +1,6 @@
 <header class="banner">
-    <a class="brand text-yellow-500" href="{{ home_url('/') }}">
-        {!! $siteName !!}
+    <a class="brand text-red-500" href="{{ home_url('/') }}">
+        {!! $siteName !!} staging
     </a>
 
     @if (has_nav_menu('primary_navigation'))
